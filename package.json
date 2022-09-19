@@ -1,0 +1,24 @@
+{
+  "name": "maths-resource-centre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i input.css -o ./css/style.css --watch",
+    "prod": "npx tailwindcss -i input.css -o ./css/style.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leswulff23/Maths-Resource-Centre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leswulff23/Maths-Resource-Centre/issues"
+  },
+  "homepage": "https://github.com/Leswulff23/Maths-Resource-Centre#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
